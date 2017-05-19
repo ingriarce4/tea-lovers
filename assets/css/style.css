@@ -2,24 +2,128 @@
 Código Hexadecimal verde: #8EC641
 Código Hexadecimal gris footer: #3B3B3B
 */
+
 *{
-	margin:0;
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family:"Raleway";
+	font-family: "Raleway";
 	font-size: 16px;
 }
-/* Sección Bienvenida*/
-#bienvenida{
+
+/* Seccion Bienvenida*/
+
+#bienvenida {
 	background: url("../img/fondo-bienvenida.jpg");
 	background-size: cover;
 	background-position: center;
 	padding: 50px 0;
 }
-.logo{
+
+.logo {
 	text-align: left;
-	padding: 0 30px; 
+	padding: 0 30px;
 }
+
 .mensaje {
 	text-align: center;
-}   
+}
+
+/* Secciones fondo de color*/
+.color {
+	background-color: #8EC641;
+}
+
+/*Newsletter*/
+.newsletter {
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.newsletter button {
+	color: white;
+	background-color: #8EC641;
+	padding: 20px;
+	border: 5px solid white;
+	border-radius: 5px;
+	font-size: 1.5em;
+	font-weight: bolder;
+	cursor: pointer;
+}
+
+/*Seccion input de Newsletter*/
+.todos-inputs {
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.todos-inputs h2,
+.todos-inputs label {
+	color: white;
+}
+
+.todos-inputs h2{
+	font-size: 3em;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+.todos-inputs .anchar{
+	border-radius: 0.6em 0.6em;	
+	font-size: 12pt;	
+	width: 450px;
+	padding: 2px;
+}
+
+
+/*Seccion about*/
+#about {
+	background: url("../img/fondo-about.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
+
+.contenido {
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	padding: 30px 30px 100px 30px;
+}
+
+.contenido h1 {
+	font-weight: bolder;
+	font-size: 5rem;
+	line-height: 5rem;
+	text-transform: uppercase;
+}
+
+/*Tipos de Té*/
+.te-diferentes {
+	color: white;
+	padding: 30px;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.tipo-de-te {
+	border: 5px solid white;
+	margin:30px 0;
+	padding: 20px;
+}
+
+.tipo-de-te h2 {
+	font-size: 1.5rem;
+}
+
+/*disfruta*/
+
+#disfruta {
+	background: url("../img/disfruta.jpg");
+	background-size: cover;
+	background-position: center;
+	padding: 50px 0;
+}
